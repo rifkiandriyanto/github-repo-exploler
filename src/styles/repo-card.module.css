@@ -1,0 +1,42 @@
+.repositoryCard {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--dark-gray);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.repositoryCard h5 {
+  font-size: 1.5rem;
+}
+
+.repositoryCard p {
+  font-size: 1rem;
+}
+
+.stargazerCount {
+  display: flex;
+  align-items: center;
+}
+
+.stargazerCount p {
+  margin-right: 4px;
+}
+
+@media only screen and (max-width: 640px) {
+  .repositoryCard {
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+  }
+  .repositoryCard h5 {
+    font-size: 1rem;
+  }
+
+  .repositoryCard p {
+    font-size: 0.75rem;
+  }
+}
